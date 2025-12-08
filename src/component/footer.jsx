@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import { Facebook, Github, Instagram, Send, Twitter } from "lucide-react";
+import { NavLink } from 'react-router-dom'
+import { Facebook, Github, Instagram, Send, Twitter } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -9,9 +9,8 @@ export default function Footer() {
         <div>
           <h2 className="text-xl font-bold text-white">Abdulhawari</h2>
           <p className="mt-3 text-slate-300">
-            Fullstack Developer <br />I help build websites and web applications
-            that are modern, fast, and ready to grow. immediately build your
-            dream web application with me
+            Fullstack Developer <br />I help build websites and web applications that are modern,
+            fast, and ready to grow. immediately build your dream web application with me
           </p>
         </div>
 
@@ -20,32 +19,50 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white">Quick Links</h3>
           <ul className="mt-4 space-y-2">
             <li>
-              <NavLink className="hover:text-slate-50 text-slate-300">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}
+                to={'/'}
+              >
                 <span>Home</span>
               </NavLink>
             </li>
             <li>
-              <NavLink className="hover:text-slate-50 text-slate-300">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}
+                to={'/Project'}
+              >
                 <span>Projects</span>
               </NavLink>
             </li>
             <li>
-              <NavLink className="hover:text-slate-50 text-slate-300">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}
+                to={'/Services'}
+              >
                 <span>Services</span>
               </NavLink>
             </li>
             <li>
-              <NavLink className="hover:text-slate-50 text-slate-300">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}
+                to={'/Blog'}
+              >
                 <span>Blog</span>
               </NavLink>
             </li>
             <li>
-              <NavLink className="hover:text-slate-50 text-slate-300">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}
+                to={'/About'}
+              >
                 <span>About</span>
               </NavLink>
             </li>
             <li>
-              <NavLink className="hover:text-slate-50 text-slate-300">
+              <NavLink
+                className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}
+                to={'/Contact'}
+              >
                 <span>Contact</span>
               </NavLink>
             </li>
@@ -84,8 +101,8 @@ export default function Footer() {
         <div className="flex gap-4">
           <NavLink
             className="p-2.5 rounded-lg flex items-center justify-center bg-blue-800 text-slate-50"
-            to={"https://www.facebook.com/WebDevFullStackPHP?locale=id_ID"}
-            target={"_blank"}
+            to={'https://www.facebook.com/WebDevFullStackPHP?locale=id_ID'}
+            target={'_blank'}
           >
             <Facebook className="w-5 h-5" />
           </NavLink>
@@ -105,5 +122,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  );
+  )
 }

@@ -1,15 +1,19 @@
-import { NavLink } from "react-router-dom";
-import discussion from "../assets/discussion.svg";
-import development from "../assets/development.svg";
-import testing from "../assets/testing.svg";
-import launching from "../assets/launching.svg";
-import design from "../assets/design.svg";
-import api from "../assets/restapi.svg";
-import maintenance from "../assets/maintenance.svg";
-import web_development from "../assets/web_development.svg";
-import design_tools from "../assets/design_tools.svg";
-import application from "../assets/application.svg";
-import { ArrowRight } from "lucide-react";
+import { NavLink } from 'react-router-dom'
+import discussion from '../assets/discussion.svg'
+import development from '../assets/development.svg'
+import testing from '../assets/testing.svg'
+import launching from '../assets/launching.svg'
+import design from '../assets/design.svg'
+import api from '../assets/restapi.svg'
+import maintenance from '../assets/maintenance.svg'
+import web_development from '../assets/web_development.svg'
+import design_tools from '../assets/design_tools.svg'
+import application from '../assets/application.svg'
+import clean_code from '../assets/clean_code.svg'
+import supportafterlaunch from '../assets/supportafterlaunch.svg'
+import responsive from '../assets/responsive.svg'
+import search_engine_optimization from '../assets/search_engine_optimization.svg'
+import { ArrowRight } from 'lucide-react'
 
 export default function Services() {
   return (
@@ -47,23 +51,19 @@ export default function Services() {
             build a modern web that is fast and scalable.
           </h1>
           <h2 className="text-[20px] font-bold text-center text-slate-900">
-            Services For Professional Website Development Modern web solutions
-            for business and personal brands.
+            Services For Professional Website Development Modern web solutions for business and
+            personal brands.
           </h2>
           <NavLink className="w-[150px] h-16 flex items-center justify-center bg-blue-600 text-slate-50 font-bold text-xl rounded-full my-10">
             <span>Hire Me</span>
           </NavLink>
         </div>
       </div>
-      <div className="px-20 py-10 w-full flex flex-col">
+      <div className="px-20 py-24 w-full flex flex-col">
         <h2 className="font-bold text-2xl mb-5">Services List</h2>
         <div className="flex flex-wrap w-full gap-5">
           <div className="flex flex-col text-slate-950 p-5">
-            <img
-              src={web_development}
-              alt="Web Development"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={web_development} alt="Web Development" className="w-[150px] h-[150px]" />
             <h2 className="font-medium text-lg">Web Development</h2>
             <ul className="px-5 text-slate-800">
               <li className="list-disc">Company Profile</li>
@@ -72,11 +72,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="flex flex-col text-slate-950 p-5">
-            <img
-              src={application}
-              alt="Web Application"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={application} alt="Web Application" className="w-[150px] h-[150px]" />
             <h2 className="font-medium text-lg">Web Application</h2>
             <ul className="px-5 text-slate-800">
               <li className="list-disc">Admin Panel</li>
@@ -86,11 +82,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="flex flex-col text-slate-950 p-5">
-            <img
-              src={design_tools}
-              alt="UI Implementation"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={design_tools} alt="UI Implementation" className="w-[150px] h-[150px]" />
             <h2 className="font-medium text-lg">UI Implementation</h2>
             <ul className="px-5 text-slate-800">
               <li className="list-disc">Figma to html</li>
@@ -98,11 +90,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="flex flex-col text-slate-950 p-5">
-            <img
-              src={api}
-              alt="API Development"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={api} alt="API Development" className="w-[150px] h-[150px]" />
             <h2 className="font-medium text-lg">API Development</h2>
             <ul className="px-5 text-slate-800">
               <li className="list-disc">REST API</li>
@@ -110,11 +98,7 @@ export default function Services() {
             </ul>
           </div>
           <div className="flex flex-col text-slate-950 p-5">
-            <img
-              src={maintenance}
-              alt="Maintenance And Support"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={maintenance} alt="Maintenance And Support" className="w-[150px] h-[150px]" />
             <h2 className="font-medium text-lg">Maintenance & Support</h2>
             <ul className="px-5 text-slate-800">
               <li className="list-disc">Fix Bug</li>
@@ -124,15 +108,11 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="px-20 py-10 w-full flex flex-col">
+      <div className="px-20 py-24 w-full flex flex-col">
         <h2 className="font-bold text-2xl mb-5">How the process works?</h2>
         <div className="flex items-center gap-5">
           <div className="flex flex-col w-[25%] items-center justify-center">
-            <img
-              src={discussion}
-              alt="Discussion"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={discussion} alt="Discussion" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Discussion</h1>
               <p className="text-md text-slate-800 ">
@@ -146,25 +126,17 @@ export default function Services() {
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Design</h1>
               <p className="text-md text-slate-800 ">
-                design the application according to your wishes before
-                development
+                design the application according to your wishes before development
               </p>
             </div>
           </div>
           <ArrowRight className="w-10 h-10" />
           <div className="flex flex-col w-[25%] items-center justify-center">
-            <img
-              src={development}
-              alt="Development"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={development} alt="Development" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
-              <h1 className="text-lg text-slate-950 font-medium">
-                Development
-              </h1>
+              <h1 className="text-lg text-slate-950 font-medium">Development</h1>
               <p className="text-md text-slate-800 ">
-                develop applications that have been discussed and agreed upon at
-                the beginning
+                develop applications that have been discussed and agreed upon at the beginning
               </p>
             </div>
           </div>
@@ -180,21 +152,121 @@ export default function Services() {
           </div>
           <ArrowRight className="w-10 h-10" />
           <div className="flex flex-col w-[25%] items-center justify-center">
-            <img
-              src={launching}
-              alt="Launching"
-              className="w-[150px] h-[150px]"
-            />
+            <img src={launching} alt="Launching" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Launching</h1>
               <p className="text-md text-slate-800 ">
-                launch the application if it has passed testing if there are no
-                bug errors
+                launch the application if it has passed testing if there are no bug errors
               </p>
             </div>
           </div>
         </div>
       </div>
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-2xl mb-10">Choose Plan</h2>
+        <div className="flex items-center justify-between px-10 gap-5">
+          <div className="w-[250px] flex flex-col rounded-lg">
+            <div className="flex flex-col">
+              <h2 className="font-medium text-2xl mb-2">Basic</h2>
+              <span className="text-2xl font-semibold  text-slate-600">
+                <span className="text-slate-950 font-bold text-4xl">$50</span> / Project
+              </span>
+              <p className="my-5 text-md text-slate-600">
+                starting from the application landing page, portfolio, company profile
+              </p>
+            </div>
+            <NavLink className="bg-blue-600 font-bold text-md text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+              <span>Get Started</span>
+            </NavLink>
+            <div className="flex flex-col"></div>
+          </div>
+          <div className="w-[250px] flex flex-col rounded-lg">
+            <div className="flex flex-col">
+              <h2 className="font-medium text-2xl mb-2">Pro</h2>
+              <span className="text-2xl font-semibold  text-slate-600">
+                <span className="text-slate-950 font-bold text-4xl">$250</span> / Project
+              </span>
+              <p className="my-5 text-md text-slate-600">
+                build your dream business application, and get a modern, fast, scalable application
+              </p>
+            </div>
+            <NavLink className="bg-blue-600 font-bold text-md text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+              <span>Get Started</span>
+            </NavLink>
+            <div className="flex flex-col"></div>
+          </div>
+          <div className="w-[250px] flex flex-col rounded-lg">
+            <div className="flex flex-col">
+              <h2 className="font-medium text-2xl mb-2">Custom</h2>
+              <span className="text-2xl font-semibold  text-slate-600">
+                <span className="text-slate-950 font-bold text-4xl">$500</span> / Project
+              </span>
+              <p className="my-5 text-md text-slate-600">
+                I accept any request application with you, cooperate with me anytime and anywhere
+              </p>
+            </div>
+            <NavLink className="bg-blue-600 font-bold text-md text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+              <span>Get Started</span>
+            </NavLink>
+            <div className="flex flex-col"></div>
+          </div>
+        </div>
+      </div>
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-2xl mb-10">why choose me?</h2>
+        <div className="grid grid-cols-2 px-10 gap-10">
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+            <img src={clean_code} alt="Clean Code" className="w-[200px] h-[200px]" />
+            <h2 className="text-2xl font-semibold mb-2.5">Clean Code</h2>
+            <p className="text-lg text-center text-slate-800">
+              We prioritize code neatness so that it is easy to understand for you and your
+              teamwork. accompanied by complete documentation to make things easier for you and your
+              team
+            </p>
+          </div>
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+            <img
+              src={search_engine_optimization}
+              alt="Clean Code"
+              className="w-[200px] h-[200px]"
+            />
+            <h2 className="text-2xl font-semibold mb-2.5">Search Engine Optimization (SEO)</h2>
+            <p className="text-lg text-center text-slate-800">
+              We apply SEO to your web application to attract the attention of users, and can be
+              detected by Google search
+            </p>
+          </div>
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+            <img src={responsive} alt="Clean Code" className="w-[200px] h-[200px]" />
+            <h2 className="text-2xl font-semibold mb-2.5">Responsive</h2>
+            <p className="text-lg text-center text-slate-800">
+              The web application created supports responsiveness for all devices, so that users can
+              access it on any device and anywhere at any time
+            </p>
+          </div>
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+            <img src={supportafterlaunch} alt="Clean Code" className="w-[200px] h-[200px]" />
+            <h2 className="text-2xl font-semibold mb-2.5">Support After Launching</h2>
+            <p className="text-lg text-center text-slate-800">
+              We also offer ongoing support regarding bugs or maintenance on an app that has already
+              been launched
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-3xl text-center mb-10">
+          ready to start your project? contact us immediately
+        </h2>
+        <div className="flex justify-center items-center gap-5">
+          <NavLink className="p-5 text-lg font-medium rounded-xl bg-slate-950 text-slate-50">
+            <span>WhatsApp</span>
+          </NavLink>
+          <NavLink className="p-5 text-lg font-medium rounded-xl bg-blue-600 text-slate-50">
+            <span>Contact Me</span>
+          </NavLink>
+        </div>
+      </div>
     </>
-  );
+  )
 }
