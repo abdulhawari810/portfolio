@@ -22,7 +22,11 @@ export default function Services() {
         <svg
           preserveAspectRatio="xMidYMid slice"
           viewBox="10 10 80 80"
+<<<<<<< HEAD
           className="w-full h-[500px]"
+=======
+          className="w-full h-[400px]"
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
         >
           <path
             fill="#9b5de5"
@@ -46,7 +50,11 @@ export default function Services() {
             d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"
           />
         </svg>
+<<<<<<< HEAD
         <div className="flex w-full h-full absolute items-center justify-center bg-slate-50/50 z-10 flex-col lg:pt-20 md:pt-20 pt-28 lg:px-0 md:px-0 px-5">
+=======
+        <div className="flex w-full h-full absolute items-center justify-center bg-slate-50/50 z-10 flex-col pt-20">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
           <h1 className="text-4xl font-bold text-center">
             build a modern web that is fast and scalable.
           </h1>
@@ -54,14 +62,24 @@ export default function Services() {
             Services For Professional Website Development Modern web solutions for business and
             personal brands.
           </h2>
+<<<<<<< HEAD
           <NavLink className="w-[150px] h-16 flex items-center justify-center bg-blue-600 text-slate-50 font-bold text-xl rounded-full lg:my-10 md:my-10 my-5">
+=======
+          <NavLink className="w-[150px] h-16 flex items-center justify-center bg-blue-600 text-slate-50 font-bold text-xl rounded-full my-10">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <span>Hire Me</span>
           </NavLink>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="lg:px-20 md:px-20 px-5 py-10 w-full flex flex-col">
         <h2 className="font-bold text-2xl mb-5">Services List</h2>
         <div className="lg:flex md:flex lg:flex-wrap md:flex-wrap grid grid-cols-2 w-full gap-5">
+=======
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-2xl mb-5">Services List</h2>
+        <div className="flex flex-wrap w-full gap-5">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
           <div className="flex flex-col text-slate-950 p-5">
             <img src={web_development} alt="Web Development" className="w-[150px] h-[150px]" />
             <h2 className="font-medium text-lg">Web Development</h2>
@@ -108,10 +126,17 @@ export default function Services() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="lg:px-20 md:px-20 px-5 py-10 w-full flex flex-col">
         <h2 className="font-bold text-2xl mb-5">How the process works?</h2>
         <div className="lg:flex md:flex lg:flex-wrap md:flex-wrap grid grid-cols-2 items-center gap-5">
           <div className="flex flex-col lg:w-[25%] md:w-[25%] w-full items-center justify-center">
+=======
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-2xl mb-5">How the process works?</h2>
+        <div className="flex items-center gap-5">
+          <div className="flex flex-col w-[25%] items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={discussion} alt="Discussion" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Discussion</h1>
@@ -120,8 +145,13 @@ export default function Services() {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <ArrowRight className="w-10 h-10 lg:flex md:flex hidden" />
           <div className="flex flex-col lg:w-[25%] md:w-[25%] w-full items-center justify-center">
+=======
+          <ArrowRight className="w-10 h-10" />
+          <div className="flex flex-col w-[25%] items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={design} alt="Design" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Design</h1>
@@ -130,8 +160,13 @@ export default function Services() {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <ArrowRight className="w-10 h-10 lg:flex md:flex hidden" />
           <div className="flex flex-col lg:w-[25%] md:w-[25%] w-full items-center justify-center">
+=======
+          <ArrowRight className="w-10 h-10" />
+          <div className="flex flex-col w-[25%] items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={development} alt="Development" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Development</h1>
@@ -140,8 +175,13 @@ export default function Services() {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <ArrowRight className="w-10 h-10 lg:flex md:flex hidden" />
           <div className="flex flex-col lg:w-[25%] md:w-[25%] w-full items-center justify-center">
+=======
+          <ArrowRight className="w-10 h-10" />
+          <div className="flex flex-col w-[25%] items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={testing} alt="Testing" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Testing</h1>
@@ -150,8 +190,13 @@ export default function Services() {
               </p>
             </div>
           </div>
+<<<<<<< HEAD
           <ArrowRight className="w-10 h-10 lg:flex md:flex hidden" />
           <div className="flex flex-col lg:w-[25%] md:w-[25%] w-full items-center justify-center">
+=======
+          <ArrowRight className="w-10 h-10" />
+          <div className="flex flex-col w-[25%] items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={launching} alt="Launching" className="w-[150px] h-[150px]" />
             <div className="flex flex-col">
               <h1 className="text-lg text-slate-950 font-medium">Launching</h1>
@@ -162,6 +207,7 @@ export default function Services() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="lg:px-20 md:px-20 px-5 py-10 w-full flex flex-col">
         <h2 className="font-bold text-2xl mb-10">Choose Plan</h2>
         <div className="flex lg:items-start md:items-start items-center lg:justify-between md:justify-between justify-center lg:flex-row md:flex-row flex-col lg:px-10 md:px-10 px-0 lg:gap-5 md:gap-5 gap-20">
@@ -176,12 +222,29 @@ export default function Services() {
               </p>
             </div>
             <NavLink className="bg-blue-600 font-bold text-sm text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+=======
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-2xl mb-10">Choose Plan</h2>
+        <div className="flex items-center justify-between px-10 gap-5">
+          <div className="w-[250px] flex flex-col rounded-lg">
+            <div className="flex flex-col">
+              <h2 className="font-medium text-2xl mb-2">Basic</h2>
+              <span className="text-2xl font-semibold  text-slate-600">
+                <span className="text-slate-950 font-bold text-4xl">$50</span> / Project
+              </span>
+              <p className="my-5 text-md text-slate-600">
+                starting from the application landing page, portfolio, company profile
+              </p>
+            </div>
+            <NavLink className="bg-blue-600 font-bold text-md text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
               <span>Get Started</span>
             </NavLink>
             <div className="flex flex-col"></div>
           </div>
           <div className="w-[250px] flex flex-col rounded-lg">
             <div className="flex flex-col">
+<<<<<<< HEAD
               <h2 className="font-medium lg:text-2xl md:text-2xl text-lg mb-2">Pro</h2>
               <span className="lg:text-2xl md:text-2xl text-lg font-semibold  text-slate-600">
                 <span className="text-slate-950 font-bold text-4xl">$250</span> / Project
@@ -191,12 +254,24 @@ export default function Services() {
               </p>
             </div>
             <NavLink className="bg-blue-600 font-bold text-sm text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+=======
+              <h2 className="font-medium text-2xl mb-2">Pro</h2>
+              <span className="text-2xl font-semibold  text-slate-600">
+                <span className="text-slate-950 font-bold text-4xl">$250</span> / Project
+              </span>
+              <p className="my-5 text-md text-slate-600">
+                build your dream business application, and get a modern, fast, scalable application
+              </p>
+            </div>
+            <NavLink className="bg-blue-600 font-bold text-md text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
               <span>Get Started</span>
             </NavLink>
             <div className="flex flex-col"></div>
           </div>
           <div className="w-[250px] flex flex-col rounded-lg">
             <div className="flex flex-col">
+<<<<<<< HEAD
               <h2 className="font-medium lg:text-2xl md:text-2xl text-lg mb-2">Custom</h2>
               <span className="lg:text-2xl md:text-2xl text-lg font-semibold  text-slate-600">
                 <span className="text-slate-950 font-bold text-4xl">$500</span> / Project
@@ -206,16 +281,34 @@ export default function Services() {
               </p>
             </div>
             <NavLink className="bg-blue-600 font-bold text-sm text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+=======
+              <h2 className="font-medium text-2xl mb-2">Custom</h2>
+              <span className="text-2xl font-semibold  text-slate-600">
+                <span className="text-slate-950 font-bold text-4xl">$500</span> / Project
+              </span>
+              <p className="my-5 text-md text-slate-600">
+                I accept any request application with you, cooperate with me anytime and anywhere
+              </p>
+            </div>
+            <NavLink className="bg-blue-600 font-bold text-md text-slate-50 rounded-lg w-full h-12 flex items-center justify-center">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
               <span>Get Started</span>
             </NavLink>
             <div className="flex flex-col"></div>
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="lg:px-20 md:px-20 px-5 py-10 w-full flex flex-col">
         <h2 className="font-bold text-2xl mb-10">why choose me?</h2>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:px-10 md:px-10 px-0 gap-10">
           <div className="flex items-center justify-center flex-col rounded-4xl p-10 bg-slate-200/50">
+=======
+      <div className="px-20 py-24 w-full flex flex-col">
+        <h2 className="font-bold text-2xl mb-10">why choose me?</h2>
+        <div className="grid grid-cols-2 px-10 gap-10">
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={clean_code} alt="Clean Code" className="w-[200px] h-[200px]" />
             <h2 className="text-2xl font-semibold mb-2.5">Clean Code</h2>
             <p className="text-lg text-center text-slate-800">
@@ -224,7 +317,11 @@ export default function Services() {
               team
             </p>
           </div>
+<<<<<<< HEAD
           <div className="flex items-center justify-center flex-col rounded-4xl p-10 bg-slate-200/50">
+=======
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img
               src={search_engine_optimization}
               alt="Clean Code"
@@ -236,7 +333,11 @@ export default function Services() {
               detected by Google search
             </p>
           </div>
+<<<<<<< HEAD
           <div className="flex items-center justify-center flex-col rounded-4xl p-10 bg-slate-200/50">
+=======
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={responsive} alt="Clean Code" className="w-[200px] h-[200px]" />
             <h2 className="text-2xl font-semibold mb-2.5">Responsive</h2>
             <p className="text-lg text-center text-slate-800">
@@ -244,7 +345,11 @@ export default function Services() {
               access it on any device and anywhere at any time
             </p>
           </div>
+<<<<<<< HEAD
           <div className="flex items-center justify-center flex-col rounded-4xl p-10 bg-slate-200/50">
+=======
+          <div className="flex items-center justify-center flex-col rounded-lg p-10 bg-slate-200/50">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <img src={supportafterlaunch} alt="Clean Code" className="w-[200px] h-[200px]" />
             <h2 className="text-2xl font-semibold mb-2.5">Support After Launching</h2>
             <p className="text-lg text-center text-slate-800">
@@ -254,7 +359,11 @@ export default function Services() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="lg:px-20 md:px-20 px-5 py-10 w-full flex flex-col">
+=======
+      <div className="px-20 py-24 w-full flex flex-col">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
         <h2 className="font-bold text-3xl text-center mb-10">
           ready to start your project? contact us immediately
         </h2>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Search, GithubIcon, ArrowUpRight } from 'lucide-react'
 import MinimalBackground from '../component/background'
 import project1 from '../assets/project/project1.webp'
@@ -6,11 +7,15 @@ import project3 from '../assets/project/project3.webp'
 import project4 from '../assets/project/project4.webp'
 import project5 from '../assets/project/project5.webp'
 import { NavLink } from 'react-router-dom'
+=======
+import MinimalBackground from "../component/background";
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 
 export default function Project() {
   return (
     <>
       <MinimalBackground>
+<<<<<<< HEAD
         <div className="max-w-5xl mx-auto px-6 pt-32 pb-10">
           <div className="flex items-center justify-center">
             <form className="flex w-full items-center justify-center relative lg:px-0 md:px-0 px-5">
@@ -180,4 +185,15 @@ export default function Project() {
       </MinimalBackground>
     </>
   )
+=======
+        <div className="max-w-5xl mx-auto px-6 py-32">
+          <h1 className="text-5xl font-bold text-zinc-900">Programmer ID</h1>
+          <p className="mt-4 text-zinc-600 max-w-xl">
+            Backend Developer • Portfolio • Showcase
+          </p>
+        </div>
+      </MinimalBackground>
+    </>
+  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useContext, useEffect, useState } from 'react'
 import { PortfolioContext } from '../context/PortfolioContext'
 import defaultProfile from '../assets/profile.png'
@@ -425,4 +426,12 @@ export default function About() {
       </div>
     </>
   )
+=======
+export default function About() {
+  return (
+    <>
+      <h1>About</h1>
+    </>
+  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 }

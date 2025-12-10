@@ -14,13 +14,20 @@
     "axios": "^1.13.2",
     "firebase": "^12.6.0",
     "lucide-react": "^0.556.0",
+<<<<<<< HEAD
     "postprocessing": "^6.38.0",
+=======
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.10.1",
     "swr": "^2.3.7",
+<<<<<<< HEAD
     "tailwindcss": "^4.1.17",
     "three": "^0.181.2"
+=======
+    "tailwindcss": "^4.1.17"
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

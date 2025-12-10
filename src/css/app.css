@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import 'tailwindcss';
@@ -8,6 +9,13 @@
     --radius-blob: 48% 52% 45% 55% / 50% 75% 25% 50%;
     --radius-blob2: 52% 48% 42% 58% / 64% 65% 35% 36%;
     --radius-blob3: 70% 30% 67% 33% / 38% 77% 23% 62%;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --font-nunito: "Nunito Sans", sans-serif;
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 }
 
 @layer base {
@@ -80,6 +88,7 @@
     animation: rotate 15s linear infinite;
     transform-origin: 84px 93px;
 }
+<<<<<<< HEAD
 
 .hero {
     position: fixed;
@@ -107,3 +116,5 @@
 canvas {
     filter: contrast(1.15) saturate(1.2);
 }
+=======
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9

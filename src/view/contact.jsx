@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Mail } from 'lucide-react'
 
 export default function Contact() {
@@ -82,4 +83,12 @@ export default function Contact() {
       </div>
     </>
   )
+=======
+export default function Contact() {
+  return (
+    <>
+      <h1>Contact</h1>
+    </>
+  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 }

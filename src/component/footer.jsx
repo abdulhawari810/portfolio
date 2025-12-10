@@ -3,7 +3,11 @@ import { Facebook, Github, Instagram, Send, Twitter } from 'lucide-react'
 
 export default function Footer() {
   return (
+<<<<<<< HEAD
     <footer className="bg-blue-600 text-slate-300 lg:px-20 md:px-20 px-5 pt-12">
+=======
+    <footer className="bg-blue-600 text-slate-300 px-20 pt-12">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 border-b border-slate-50 pb-10">
         {/* Brand Info */}
         <div>
@@ -17,7 +21,11 @@ export default function Footer() {
         {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white">Quick Links</h3>
+<<<<<<< HEAD
           <ul className="mt-4 space-y-2 flex lg:flex-col md:flex-col flex-wrap gap-5">
+=======
+          <ul className="mt-4 space-y-2">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
             <li>
               <NavLink
                 className={({ isActive }) => (isActive ? 'text-slate-50' : 'text-slate-300')}

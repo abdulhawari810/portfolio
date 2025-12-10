@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useContext, useEffect, useState } from 'react'
 import { PortfolioContext } from '../context/PortfolioContext'
 import defaultProfile from '../assets/default.png'
@@ -30,6 +31,36 @@ export default function Home() {
   console.log(profile)
 
   const [bubbles, setBubbles] = useState([])
+=======
+import { useContext, useEffect, useState } from "react";
+import { PortfolioContext } from "../context/PortfolioContext";
+import defaultProfile from "../assets/default.png";
+import axios from "axios";
+import useSWR from "swr";
+import { Facebook, Github, Instagram, Twitter, Send } from "lucide-react";
+import { NavLink } from "react-router-dom";
+import reactjs from "../assets/reactjs.svg";
+import codeigniter from "../assets/codeigniter.svg";
+import tailwindcss from "../assets/tailwindcss.svg";
+import mysql from "../assets/mysql.svg";
+import expressjs from "../assets/expressjs.webp";
+import project1 from "../assets/project/project1.png";
+
+export default function Home() {
+  const { profile } = useContext(PortfolioContext);
+
+  const fetch = async (url) => {
+    const res = await axios.get(url);
+
+    return res.data;
+  };
+
+  const { data } = useSWR(`https://api.github.com/users/abdulhawari810`, fetch);
+
+  console.log(profile);
+
+  const [bubbles, setBubbles] = useState([]);
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 
   useEffect(() => {
     const generated = Array.from({ length: 30 }).map(() => ({
@@ -37,10 +68,17 @@ export default function Home() {
       left: `${Math.random() * 100}%`,
       delay: `${Math.random() * 1}s`,
       size: Math.random() * 15 + 8,
+<<<<<<< HEAD
     }))
 
     setBubbles(generated)
   }, [])
+=======
+    }));
+
+    setBubbles(generated);
+  }, []);
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 
   return (
     <>
@@ -62,6 +100,7 @@ export default function Home() {
           ))}
 
         {/* CONTENT */}
+<<<<<<< HEAD
         <div className="flex flex-col z-10 relative items-center justify-center w-full lg:px-20 md:px-20 px-5 pt-20">
           <div className="flex items-center justify-around flex-col lg:flex-row-reverse md:flex-row-reverse gap-5">
             <img
@@ -73,6 +112,20 @@ export default function Home() {
               <h1 className="font-black text-2xl text-blue-600">Hello, i'm {profile?.name}</h1>
               <span className="text-md font-medium text-slate-950 mt-2.5">Fullstack Developer</span>
               <p className="text-md text-slate-700 my-5 w-[70%]">{profile?.desc}</p>
+=======
+        <div className="flex flex-col z-10 relative items-center justify-center w-full px-20 pt-20">
+          <div className="flex items-center justify-around flex-row">
+            <div className="flex flex-col">
+              <h1 className="font-black text-2xl text-blue-600">
+                Hello, i'm {profile?.name}
+              </h1>
+              <span className="text-md font-medium text-slate-950 mt-2.5">
+                Fullstack Developer
+              </span>
+              <p className="text-md text-slate-700 my-5 w-[70%]">
+                {profile?.desc}
+              </p>
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
               <div className="w-full flex items-center gap-2.5">
                 <NavLink className="flex items-center justify-center rounded-lg bg-blue-600 text-slate-50 hover:bg-slate-950 hover:text-slate-50 p-2.5">
                   Hire Me
@@ -89,8 +142,15 @@ export default function Home() {
                   </button>
                   <NavLink
                     className="p-2.5 rounded-lg flex items-center justify-center bg-blue-600 text-slate-50"
+<<<<<<< HEAD
                     to={'https://www.facebook.com/WebDevFullStackPHP?locale=id_ID'}
                     target={'_blank'}
+=======
+                    to={
+                      "https://www.facebook.com/WebDevFullStackPHP?locale=id_ID"
+                    }
+                    target={"_blank"}
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                   >
                     <Facebook className="w-5 h-5" />
                   </NavLink>
@@ -106,12 +166,27 @@ export default function Home() {
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
           </div>
         </div>
       </div>
       <div className="flex flex-col w-full bg-slate-100 my-10 lg:px-20 md:px-20 px-5 py-10">
         <h1 className="font-black text-2xl text-slate-950">My Tech Stack</h1>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
+=======
+
+            <img
+              src={defaultProfile}
+              className="w-[250px] h-[350px] object-cover rounded-full"
+              alt="profile"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col w-full bg-slate-100 my-10 px-20 py-10">
+        <h1 className="font-black text-2xl text-slate-950">My Tech Stack</h1>
+        <div className="grid grid-cols-2">
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
           <div className="flex flex-col my-5">
             <h4 className="text-xl font-medium">Frontend:</h4>
             <ul className="w-full flex items-center py-2.5 gap-2.5">
@@ -124,13 +199,25 @@ export default function Home() {
                     >
                       <img
                         src={
+<<<<<<< HEAD
                           item === 'Reactjs' ? reactjs : item === 'Tailwindcss' ? tailwindcss : ''
+=======
+                          item === "Reactjs"
+                            ? reactjs
+                            : item === "Tailwindcss"
+                              ? tailwindcss
+                              : ""
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                         }
                         className="w-10 h-10"
                       />
                       <span>{item}</span>
                     </li>
+<<<<<<< HEAD
                   )
+=======
+                  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                 })}
             </ul>
           </div>
@@ -146,17 +233,29 @@ export default function Home() {
                     >
                       <img
                         src={
+<<<<<<< HEAD
                           item === 'CodeIgniter'
                             ? codeigniter
                             : item === 'Express js'
                               ? expressjs
                               : ''
+=======
+                          item === "CodeIgniter"
+                            ? codeigniter
+                            : item === "Express js"
+                              ? expressjs
+                              : ""
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                         }
                         className="w-10 h-10"
                       />
                       <span>{item}</span>
                     </li>
+<<<<<<< HEAD
                   )
+=======
+                  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                 })}
             </ul>
           </div>
@@ -170,10 +269,20 @@ export default function Home() {
                       className="flex flex-col items-center justify-center bg-blue-600/5 text-blue-600 rounded-lg gap-2.5 p-2.5"
                       key={i}
                     >
+<<<<<<< HEAD
                       <img src={item === 'MySQL' ? mysql : ''} className="w-10 h-10" />
                       <span>{item}</span>
                     </li>
                   )
+=======
+                      <img
+                        src={item === "MySQL" ? mysql : ""}
+                        className="w-10 h-10"
+                      />
+                      <span>{item}</span>
+                    </li>
+                  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                 })}
             </ul>
           </div>
@@ -190,12 +299,17 @@ export default function Home() {
                       <Github className="w-8 h-8" />
                       <span>{item}</span>
                     </li>
+<<<<<<< HEAD
                   )
+=======
+                  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                 })}
             </ul>
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div className="flex flex-col w-full bg-slate-100 py-10 lg:px-20 md:px-20 px-5">
         <h1 className="font-black text-2xl text-slate-950">Project Experience</h1>
         <div className="flex flex-wrap items-start justify-between gap-10 lg:p-5 md:p-5 p-0">
@@ -334,6 +448,34 @@ export default function Home() {
                 <NavLink className="p-2.5 bg-slate-950 text-slate-50 rounded-lg mt-2.5 flex items-center gap-2">
                   <GithubIcon className="w-4 h-4" />
                   <span>Github</span>
+=======
+      <div className="flex flex-col  bg-slate-50 px-20 py-10">
+        <h1 className="text-2xl text-slate-950 font-black my-10 ">
+          My Project
+        </h1>
+        <div className="flex items-start justify-between gap-5 py-5">
+          <div className="w-[250px] flex flex-col">
+            <img
+              src={project1}
+              alt="Project 1"
+              className="w-full h-[300px] object-cover rounded-lg"
+            />
+            <div className="flex flex-col">
+              <h1 className="text-lg text-slate-950 font-black my-5">
+                Pandanime
+              </h1>
+              <p className="text-md text-slate-700">
+                A fullstack anime website built with React, Tailwind CSS,
+                Express, and MySQL to deliver a fast, interactive, and
+                responsive user experience.
+              </p>
+              <div className="flex items-center justify-between gap-5 my-2.5">
+                <NavLink className="bg-blue-600 text-slate-50 hover:bg-slate-950 hover:text-slate-50 rounded-lg p-2.5">
+                  Preview
+                </NavLink>
+                <NavLink className="bg-slate-950/10 text-slate-950 hover:bg-blue-700 hover:text-slate-50 rounded-lg p-2.5">
+                  Repository
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
                 </NavLink>
               </div>
             </div>
@@ -341,5 +483,9 @@ export default function Home() {
         </div>
       </div>
     </>
+<<<<<<< HEAD
   )
+=======
+  );
+>>>>>>> ae5e8464a361a5e05d9a125f9398607a06cdb2d9
 }
