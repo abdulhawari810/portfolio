@@ -1,0 +1,10 @@
+body {
+  background-color: var(--color-bg-color);
+  color: var(--color-primary-50);
+  font-family: var(--font-headline);
+  transition: color 0.2s ease-in-out;
+}
+
+.animate-button {
+  animation: buttonClick 0.2s;
+}

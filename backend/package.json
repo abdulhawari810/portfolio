@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is my backend for portfolio website",
+  "license": "ISC",
+  "author": "abdulhawari",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "geoip-lite": "^2.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "mysql2": "^3.22.5",
+    "nodemailer": "^9.0.1",
+    "sequelize": "^6.37.8",
+    "slugify": "^1.6.9",
+    "socket.io": "^4.8.3",
+    "ua-parser-js": "^2.0.10"
+  }
+}
