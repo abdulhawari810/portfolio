@@ -8,3 +8,15 @@ body {
 .animate-button {
   animation: buttonClick 0.2s;
 }
+.animate-navbar {
+  animation: navbar 0.5s;
+}
+
+@keyframes navbar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

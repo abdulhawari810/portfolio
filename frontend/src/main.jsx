@@ -12,9 +12,7 @@ import Register from "@/views/auth/register.auth";
 import Login from "@/views/auth/login.auth";
 
 import Home from "@/views/home/home.view.jsx";
-import About from "@/views/home/about.view.jsx";
 import Project from "@/views/home/project.view.jsx";
-import Contact from "@/views/home/contact.view.jsx";
 
 const app = createBrowserRouter([
   {
@@ -26,15 +24,7 @@ const app = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "About",
-        element: <About />,
-      },
-      {
-        path: "Contact",
-        element: <Contact />,
-      },
-      {
-        path: "Project",
+        path: "Project/Detail",
         element: <Project />,
       },
     ],
@@ -60,6 +50,6 @@ const app = createBrowserRouter([
 createRoot(document.getElementById("root")).render(
   <>
     <Toaster position="top-center" />
-    <RouterProvider router={app}></RouterProvider>,
+    <RouterProvider router={app}></RouterProvider>
   </>,
 );
